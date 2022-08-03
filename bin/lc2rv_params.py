@@ -19,7 +19,7 @@ test = True
 # ----------------------------------------
 # General settings:
 
-rootdir = "/home/idekany/Research/lc2rv"            # all paths will be relative to this
+rootdir = "."            # all paths will be relative to this
 figformat = 'png'
 verbose = True
 n_folds = 10                                        # number of CV folds
@@ -47,7 +47,7 @@ indx_highlight = 42
 
 # ----------------------------------------
 # I/O for prediction:
-input_model_file = "bin/lc2rv_xgb_model.save"     # filename for loading the trained predictive model
+input_model_file = "bin/lc2rv_xgb_model.save"       # filename for loading the trained predictive model
 inputfile_pred = "test.dat"                         # input file with the names and periods of the target objects
 lc_subdir_pred = "synlc_g"                          # subdirectory of the 'synthetic' light curves for prediction
 rv_subdir_pred = "phasedrv"                         # subdirectory of the redial velocity data for prediction
